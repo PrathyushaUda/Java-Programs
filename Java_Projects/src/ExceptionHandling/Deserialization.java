@@ -10,7 +10,7 @@ public class Deserialization {
 		FileInputStream fis = new FileInputStream(
 				"C:\\Users\\PUJAPRADEEP\\OneDrive\\Desktop\\prathyushaa\\prathyusha7.txt");
 		ObjectInputStream ois = new ObjectInputStream(fis);
-		Serialaization s = (Serialaization) ois.readObject();
+		Serialization s = (Serialization) ois.readObject();
 		System.out.println(s.name);
 		System.out.println(s.username);
 		System.out.println(s.password);
